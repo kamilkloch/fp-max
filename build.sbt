@@ -2,7 +2,10 @@ name := "fp-max"
 
 version := "0.1"
 
-scalaVersion := "2.12.6"
+scalaVersion := "2.12.7"
+
+libraryDependencies += "org.typelevel" %% "cats-effect" % "1.0.0"
+libraryDependencies += "org.typelevel" %% "cats-core" % "1.4.0"
 
 scalacOptions := Seq(
   "-deprecation", // Emit warning and location for usages of deprecated APIs.
